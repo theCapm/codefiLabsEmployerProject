@@ -1,0 +1,122 @@
+// /* #Universal and Default Styles
+// –––––––––––––––––––––––––––––––––––––––––––––––––– */
+// body {
+//     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/323039/black-wood-small.jpg);
+//     color:#ddd;
+//     font-family: "Open Sans", sans-serif;
+//     font-size: 26px;
+//     font-weight: 600;
+//     line-height: 1;
+//       margin:0;
+//       padding:0;
+//   }
+//   .container {
+//     margin: auto;
+//     text-align: center; 
+//     width: 940px;
+//   }
+//   h1 {
+//     font-size: 40px;
+//     font-weight: 700;
+//     margin-top: 30px;
+//   }
+//   h2 {
+//     font-size: 15px;
+//     font-weight: 400;
+//     margin-top: 10px;
+//   }
+  
+  
+  
+//   /* #Shape Styles
+//   –––––––––––––––––––––––––––––––––––––––––––––––––– */
+//   .shape-section {
+//     background: #222;
+//     border-bottom: 2px solid #555;
+//     border-top: 2px solid #555;
+//     margin-top: 30px;
+//     padding: 40px 0;
+//   }
+//   .diamond-shape {
+//     background: #fff;
+//     height: 60px;
+//     text-align: center;
+//     transform:rotate(45deg);
+//       width:60px;
+//   }
+//   .item-count {
+//     color: #333;
+//     display: table-cell;
+//     height: 60px;
+//     transform: rotate(-45deg);
+//     vertical-align: middle;
+//       width:60px;
+//       font-size: 50px;
+//   }
+
+
+
+// .tooltip {
+//   display:inline-block;
+//   position:relative;
+//   border-bottom:1px dotted #666;
+//   text-align:left;
+// }
+
+// .tooltip .right {
+//   min-width:200px; 
+//   top:50%;
+//   left:100%;
+//   margin-left:20px;
+//   transform:translate(0, -50%);
+//   padding:10px 20px;
+//   color:#FFFFFF;
+//   background-color:#666666;
+//   font-weight:normal;
+//   font-size:13px;
+//   border-radius:8px;
+//   position:absolute;
+//   z-index:99999999;
+//   box-sizing:border-box;
+//   box-shadow:0 1px 8px rgba(0,0,0,0.5);
+//   visibility:hidden; opacity:0; transition:opacity 0.8s;
+// }
+
+// .tooltip:hover .right {
+//   visibility:visible; opacity:1;
+// }
+
+// .tooltip .right i {
+//   position:absolute;
+//   top:50%;
+//   right:100%;
+//   margin-top:-12px;
+//   width:12px;
+//   height:24px;
+//   overflow:hidden;
+// }
+
+// .tooltip .right i::after {
+//   content:'';
+//   position:absolute;
+//   width:12px;
+//   height:12px;
+//   left:0;
+//   top:50%;
+//   transform:translate(50%,-50%) rotate(-45deg);
+//   background-color:#666666;
+//   box-shadow:0 1px 8px rgba(0,0,0,0.5);
+// }
+
+.modal-container {
+    background-color: #fff;
+    // border-radius: 5px;
+}
+
+.modal-header {
+    display: flex;
+    margin-left:auto;
+}
+textarea {
+    border-radius: 10px;;
+}

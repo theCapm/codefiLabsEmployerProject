@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core'
+import { ChatModalComponent } from 'app/chat-modal/chat-modal.component'
 import * as Rellax from 'rellax'
 
 @Component({
